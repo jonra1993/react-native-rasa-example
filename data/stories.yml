@@ -1,0 +1,16 @@
+version: "3.0"
+
+stories:
+  # - story: happy path
+  #   steps:
+  #     - intent: greet
+  #     - action: utter_greet
+  #     - intent: mood_great
+  #     - action: action_hello_world
+  #     - action: utter_happy
+  - story: happy path
+    steps:
+      - intent: greet
+      - action: action_ask_feelings
+      - intent: tell_hello_world
+      - action: action_hello_world

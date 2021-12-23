@@ -1,0 +1,31 @@
+{
+  "type": "template",
+  "payload": {
+    "template_type": "checkbox",
+    "text": "How do you feel?",
+    "payload": "/tell_hello_world",
+    "slot": "products",
+    "buttons": [
+      {
+          "type":"postback",
+          "title":"great",
+          "payload": "great"
+        },
+        {
+          "type":"postback",
+          "title":"hungry",
+          "payload": "hungry"
+        },
+        {
+          "type":"postback",
+          "title":"happy",
+          "payload": "happy"
+        },
+        {
+          "type":"postback",
+          "title":"worried",
+          "payload": "worried"
+        }                
+    ]
+  }
+}

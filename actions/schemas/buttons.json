@@ -1,0 +1,20 @@
+{
+    "type": "template",
+    "payload": {
+      "template_type": "radio",
+      "text": "",
+      "buttons": [
+        {
+            "type":"postback",
+            "title":"Visit Messenger",
+            "payload": "/tell_hello_world"
+          },
+          {
+            "type":"postback",
+            "title":"Visit Messenger",
+            "payload": "/mood_sad"
+          }
+      ]
+    }
+  }
+  
